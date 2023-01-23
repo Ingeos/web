@@ -20,7 +20,7 @@ const BokehChartWidget = basicFields.FieldChar.extend({
             script.setAttribute("type", "text/javascript");
             if ("textContent" in script) script.textContent = val.script;
             else script.text = val.script;
-            this.$el.append(script);
+            $("head").append(script);
         } catch (error) {
             return this._super(...arguments);
         }

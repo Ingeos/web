@@ -10,9 +10,4 @@
             <AdvancedFilterItem />
         </CustomFilterItem>
     </t>
-    <t t-inherit="web.FilterMenu" t-inherit-mode="extension" owl="1">
-        <CustomFilterItem position="after">
-            <AdvancedFilterItem />
-        </CustomFilterItem>
-    </t>
 </templates>
